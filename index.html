@@ -167,6 +167,26 @@ body {
   width: 100%;
   border-radius: 8px 8px 0 0;
 }
+
+.video-container {
+  margin-bottom: 30px;
+}
+
+.video {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.video iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+}
 </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
@@ -181,6 +201,7 @@ body {
   <div class="navbar">
     <a href="#about">About</a>
     <a href="#portfolio">Portfolio</a>
+    <a href="#videos">tut</a>
     <a href="#contact">Contact</a>
   </div>
 
@@ -242,7 +263,21 @@ body {
         </div>
         <a href="https://nash-api-end-5swp.onrender.com" class="btn">NASH API END</a>
       </li>
+      <h3>NASH API ENDPOINT</h3>
+        <div class="project-description">
+          <p>I want to introduce my REST API. You can use it to create your bot commands or website.</p>
+        </div>
+        <a href="404.html" class="btn">18+</a>
+      </li>
     </ul>
+  </div>
+
+  <div id="videos" class="section video-container">
+    <h2>tutorial</h2>
+    <p>tutorial for how to make own fb bot</p>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/jD_E3yRUkEM?si=A5yuUG2BPP9HeOa0" allowfullscreen></iframe>
+    </div>
   </div>
 
   <div id="contact" class="section">
